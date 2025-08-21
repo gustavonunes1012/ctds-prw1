@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="exerc1.css">
+</head> 
+
+<body> 
+ <h1> Fundamentos do PHP - ListaL1 - Exercício 2 </h1>
+
+ <form action="recebe-dados.php" method="get">
+  <fieldset>
+   <legend> Viagem da maria </legend>
+
+   <label class="alinha"> Distancia da viagem:</label>
+   <input type="number" name="distancia" autofocus min="0" step="0.1"><br>
+
+   <label class="alinha"> Kilometros por litro </label>
+   <input type="number" name="consumo" min="0" step="0.1"> <br>
+
+   <label class="alinha"> Preço por litro:  </label>
+   <input type="number" name="preco" min="0" max="100" step=".01"> <br>
+
+   <button> Processar dados da viagem da maria </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 
