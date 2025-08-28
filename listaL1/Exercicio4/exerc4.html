@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="exerc4.css">
+</head> 
+
+<body> 
+ <h1> Fundamentos do PHP - ListaL1 - Exercício 4 </h1>
+
+ <form action="recebe-dados.php" method="post">
+  <fieldset>
+   <legend> Conversão de temperatura </legend>
+
+   <label class="alinha"> Forneça o valor da temperatura em ºF: </label>
+   <input type="number" name="tempF" autofocus step="0.1"> <br>
+
+   <button> Converter temperatura para ºC </button>
+  </fieldset>
+ </form>
+ 
+ <p> Abaixo, acréscimo da página web para exemplificar a transferência de dados ao servidor por meio de links </p>
+
+ <p>
+  <a href="recebe-dados-de-links.php?tempF=55"> Clique aqui para converter 55°F para o equivalente em ºC </a>
+ </p>
+</body> 
+</html> 
